@@ -1,0 +1,33 @@
+{
+  "name": "TBD",
+  "version": "1.0.0",
+  "description": "A storybook",
+  "main": "tbd",
+  "repository": "tbd",
+  "author": "bpartha",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js -p $PORT",
+    "build": "next build",
+    "prod": "NODE_ENV=production nodemon server.js -p $PORT",
+    "heroku-postbuild": "next build"
+  },
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "next": "^6.0.3",
+    "nodemon": "^1.17.3",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-mixins": "^5.4.1",
+    "postcss-nested": "^1.0.1",
+    "postcss-nested-props": "^1.1.7",
+    "postcss-simple-vars": "^3.1.0",
+    "postcss-utilities": "^0.7.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "styled-jsx-postcss": "^0.2.0",
+    "babel-generator": "^6.26.1"
+  }
+}
