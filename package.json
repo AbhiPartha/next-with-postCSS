@@ -1,12 +1,12 @@
 {
-  "name": "TBD",
+  "name": "next-koa-postCSSS",
   "version": "1.0.0",
-  "description": "A storybook",
+  "description": "next with koa & postCSSS",
   "main": "tbd",
-  "repository": "tbd",
+  "repository": "https://github.com/AbhiPartha/next-with-postCSS.git",
   "author": "bpartha",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "node server.js -p $PORT",
     "build": "next build",
